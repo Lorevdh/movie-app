@@ -1,11 +1,12 @@
 .movie-card {
   position: relative;
+  border-radius: 8px;
+  overflow: hidden;
   background-color: #1a1a1a;
   transition: transform 0.2s;
   height: 100%;
   display: flex;
   flex-direction: column;
-
 }
 
 .movie-card:hover {
@@ -16,9 +17,6 @@
   position: relative;
   aspect-ratio: 2/3;
   width: 100%;
-  overflow: hidden; 
-  border-radius: 8px;
-
 }
 
 .movie-poster img {

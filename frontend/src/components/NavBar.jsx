@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import "../css/Navbar.css"
 
-function NavBar(){
+function NavBar() {
     return <nav className="navbar">
-        <div className=",avbar-brand">
+        <div className="navbar-brand">
             <Link to="/">Movie App</Link>
         </div>
-        <div classNaem="navbar-links">
+        <div className="navbar-links">
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/favorites" className="nav-link">Favorites</Link>
         </div>
